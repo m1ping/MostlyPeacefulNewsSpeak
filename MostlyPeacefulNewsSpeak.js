@@ -1,3 +1,12 @@
+/*
+MostlyPeacefulNewsSpeak by m1ping April 27, 2021 - based on Bullshit.js: https://mourner.github.io/bullshit.js/
+
+save this line as a bookmark to translate into 2020 media compliant Mostly Peaceful framing:
+javascript:(function(){var d=document,s=d.createElement('script');s.src='https://raw.githubusercontent.com/m1ping/MostlyPeacefulNewsSpeak/main/MostlyPeacefulNewsSpeak.js';d.body.appendChild(s);}())
+
+gets VM836:1 Cross-Origin Read Blocking (CORB) errors when using in Chrome
+*/
+
 !(function () {
     "use strict";
     var e = "undefined" != typeof globalThis ? globalThis : "undefined" != typeof window ? window : "undefined" != typeof global ? global : "undefined" != typeof self ? self : {};
@@ -328,19 +337,25 @@
         "\\b(" +
             [
                 "ambush",
-				"attack",
-				"battle",
-				"bombing",
-				"confrontation",
-				"fire bombing",
-				"massacre",
-				"murder",
-				"ransack",
-				"ransacked",
-				"raze",
-				"razed",
-				"riot",
-				"vandalized",
+		"attack",
+		"battle",
+		"bombing",
+		"brawl",
+		"confrontation",
+		"fight",
+		"fire bombing",
+		"massacre",
+		"murder",
+		"rampage",
+		"ransack",
+		"ransacked",
+		"raze",
+		"razed",
+		"riot",
+		"rioter",
+		"riots",
+		"vandalized",
+		"violent public disturbance",
             ].join("|") +
             ")\\b",
         "gi"
