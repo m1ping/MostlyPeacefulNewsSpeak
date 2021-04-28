@@ -336,10 +336,12 @@ gets VM836:1 Cross-Origin Read Blocking (CORB) errors when using in Chrome
     var n = new RegExp(
         "\\b(" +
             [
-                "ambush",
+                //list of words to replace
+		"ambush",
 		"attack",
 		"battle",
 		"bombing",
+		"bombings",
 		"brawl",
 		"confrontation",
 		"fight",
