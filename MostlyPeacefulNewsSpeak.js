@@ -402,7 +402,7 @@ gets VM836:1 Cross-Origin Read Blocking (CORB) errors when using in Chrome
                 : "s" !== t.charAt(i - 1) && "s" === t.charAt(i)
                 ? (r += "s")
                 : "e" !== t.charAt(i - 2) && "ed" === t.substr(i - 1)
-                ? (r += "ted")
+                ? (r += "ed")
                 : "o" !== t.charAt(i - 2) && "or" === t.substr(i - 1) && (r += "ter");
             var a = document.createElement("abbr");
             return (a.style.color = "red"), (a.title = t), (a.innerHTML = r), a;
