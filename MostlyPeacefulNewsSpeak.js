@@ -358,6 +358,8 @@ gets VM836:1 Cross-Origin Read Blocking (CORB) errors when using in Chrome
 		"riots",
 		"vandalized",
 		"violent public disturbance",
+		"war",
+		"wars",
             ].join("|") +
             ")\\b",
         "gi"
