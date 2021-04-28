@@ -369,7 +369,7 @@ gets VM836:1 Cross-Origin Read Blocking (CORB) errors when using in Chrome
                 //r = (n === n.toUpperCase() ? "B" : "b") + "ullshit";
                 r = (n === n.toUpperCase() ? "M" : "m") + "ostly peaceful protest";
             "ing" === t.substr(i - 2)
-                ? (r += "ting")
+                ? (r += "ing")
                 : "s" !== t.charAt(i - 1) && "s" === t.charAt(i)
                 ? (r += "s")
                 : "e" !== t.charAt(i - 2) && "ed" === t.substr(i - 1)
